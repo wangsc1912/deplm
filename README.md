@@ -18,7 +18,9 @@ You can install the required dependencies with the following code.
 
 ## Dataset
 
-the Fashion-MNIST dataset can be downloaded automatically by torchvision. The ShapeNet dataset can be downloaded from [here](https://www.shapenet.org/). The DVS128 Gesture dataset can be downloaded from [here](https://www.research.ibm.com/dvsgesture/).
+the Fashion-MNIST dataset can be downloaded automatically by torchvision. The preprocessed ShapeNet dataset can be downloaded from [here](https://drive.google.com/file/d/1ngKbWeDG6A9PopfYj_u8GZ8ONFjPZ3--/view?usp=sharing). The preprocessed DVS128 Gesture dataset can be downloaded from [here](https://drive.google.com/file/d/1bWRCtmnEBDc9-uOQRyswI2VhSdYqmw0g/view?usp=sharing).
+
+datasets should be placed in the `data` folder.
 
 ## Run
 
@@ -39,7 +41,3 @@ FOr the Fashion-MNIST image classification task, run the following code in the t
 ```bash
 bash run_image.sh
 ```
-
-## Acknowledgement
-
-Part of the code is build upon
